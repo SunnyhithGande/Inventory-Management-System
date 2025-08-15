@@ -1,7 +1,7 @@
-## Inventory Management System
+# Inventory Management System
 A Java-based Inventory Management System using MySQL to efficiently track products, suppliers, and orders. This console-based application allows businesses to manage stock levels, suppliers, and sales, while generating alerts for low-stock items.
 
-# Features
+### Features
 
 Product Management – Add, update, delete, list, and search products.
 
@@ -13,7 +13,7 @@ Low-Stock Alerts – Display products below a defined stock threshold.
 
 Reports – List all products, search by name, and view stock details.
 
-# Technologies Used
+### Technologies Used
 
 Programming Language: Java (Core Java, JDBC)
 
@@ -21,13 +21,13 @@ Database: MySQL
 
 JDBC Driver: MySQL Connector/J
 
-# Installation & Setup
+### Installation & Setup
 
 Clone the repository
 
 Install Java JDK and MySQL.
 
-# Create the database and tables in MySQL:
+### Create the database and tables in MySQL:
 
 CREATE DATABASE inventorydb;
 USE inventorydb;
@@ -61,7 +61,7 @@ Place the MySQL Connector/J JAR in your project folder.
 
 Update database credentials in InventoryManagementSystem.java if needed.
 
-# How to Run
+### How to Run
 
 Compile:
 
@@ -71,7 +71,7 @@ Run:
 
 java -cp .;mysql-connector-j-9.4.0.jar InventoryManagementSystem
 
-# Usage
+### Usage
 
 Start the program, and a menu will appear for managing suppliers, products, orders, and stock alerts.
 
